@@ -14,7 +14,6 @@ import java.util.*;
 public class BattleShip {
     static Scanner K = new Scanner(System.in);
     static String red="\033[31m";
-    static String reset="\u001B[0m";
     private static void InitBoard() { //10x10 boardgame for battleship initializer
         String board_2D[][] = new String [10][10];
         // BattleshipTitle
